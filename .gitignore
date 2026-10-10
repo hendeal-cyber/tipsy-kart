@@ -1,0 +1,9 @@
+node_modules/
+test/screenshots/
+# Keep the lockfile (the parent repo this came from ignored lockfiles).
+!package-lock.json
+# Self-signed LAN certificate made by net/cert.js (private key inside).
+.cert/
+# Local secrets and environment files.
+.env
+.env.*
